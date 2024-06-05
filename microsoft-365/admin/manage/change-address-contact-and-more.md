@@ -79,14 +79,16 @@ The organization's name is used throughout Microsoft 365, including but not limi
   * In Viva Engage, the organization name is used as the name of the home Engage network, and this shows up in the left navigation.  
 * OneDrive Sync
   * The organization name is shown in File Explorer on Windows and Finder on Mac. 
-    * On Windows, in File Explorer, in the navigation pane, the blue cloud icon for OneDrive for your Microsoft 365 tenant is labeled "OneDrive - \<organization name\>" (for example, "OneDrive - Contoso").  
+    * On Windows, in File Explorer, in the navigation pane, the blue cloud icon for OneDrive for your Microsoft 365 tenant is labeled:
+    *   On Windows 10: "OneDrive - \<organization name\>" (for example, "OneDrive - Contoso").
+    *   On Windows 11: "&lt; User first name &gt; - \<organization name\>" (for example, "Michael - Contoso").
     * When a user syncs a SharePoint library, it shows up in File Explorer under a node in the left navigation that bears a blue office building icon and the organization name.
   * The organization name is used in file paths:
-    * The file path for the root of the OneDrive for that user defaults to C:\users\<username>\OneDrive - \<organization Name>\
-    * The file path for SharePoint libraries that get synced is  C:\users\<username>\<organization Name>\
-    * The file path for the Documents Known Folder is C:\users\<username>\OneDrive - \<organization Name>\Documents
-    * The file path for the Pictures Known Folder is C:\users\<username>\OneDrive - \<organization Name>\Pictures
-    * The file path for the Desktop Known Folder is C:\users\<username>\OneDrive - \<organization Name>\Desktop
+    * The file path for the root of the OneDrive for that user defaults to C:\users\  &lt;username&gt; \OneDrive - \<organization Name>\
+    * The file path for SharePoint libraries that get synced is  C:\users\  &lt;username&gt; \<organization Name>\
+    * The file path for the Documents Known Folder is C:\users\ &lt;username&gt; \OneDrive - \<organization Name>\Documents
+    * The file path for the Pictures Known Folder is C:\users\  &lt;username&gt; \OneDrive - \<organization Name>\Pictures
+    * The file path for the Desktop Known Folder is C:\users\  &lt;username&gt; \OneDrive - \<organization Name>\Desktop
   * The organization name is shown in:
     * The OneDrive activity center
     * The tooltip of the OneDrive cloud icon
